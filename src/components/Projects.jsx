@@ -34,7 +34,7 @@ const Projects = () => {
                 "Tempo",
                 "OpenTelemetry",
               ]}
-              imgs={["public/devops-cloud-templates.png"]}
+              imgs={["devops-cloud-templates.png"]}
             />
           </li>
 
@@ -57,7 +57,7 @@ const Projects = () => {
                 "Operational documentation",
                 "Production runbooks",
               ]}
-              imgs={["public/cloud-platform.png"]}
+              imgs={["cloud-platform.png"]}
             />
           </li>
 
@@ -77,7 +77,7 @@ const Projects = () => {
                 "GitHub Actions",
                 "Docker",
               ]}
-              imgs={["public/sshp.png"]}
+              imgs={["sshp.png"]}
             />
           </li>
 
@@ -94,7 +94,7 @@ const Projects = () => {
                 "Redis",
                 "Pytest",
               ]}
-              imgs={["public/talent-hive.png"]}
+              imgs={["talent-hive.png"]}
             />
           </li>
 
@@ -104,7 +104,7 @@ const Projects = () => {
               description="Robust and reliable API built with Laravel and MySQL to search and rank local handymen. Engineered for performance with optimized search queries to ensure fast results at peak load, and backed by feature tests ensuring 100% critical path coverage."
               url="https://github.com/miketorreno/handyman-api"
               techStack={["Laravel", "PHP", "MySQL", "PHPUnit"]}
-              imgs={["public/handyman-api.png"]}
+              imgs={["handyman-api.png"]}
             />
           </li>
 
@@ -121,7 +121,7 @@ const Projects = () => {
                 "Shadcn/ui",
                 "Tailwind CSS",
               ]}
-              imgs={["public/streaks.png"]}
+              imgs={["streaks.png"]}
             />
           </li>
 
@@ -131,7 +131,7 @@ const Projects = () => {
               description="Donation platform designed to empower nonprofits, independent creators, and community projects to raise funds seamlessly. It features a user-friendly interface, secure payment processing, and a robust admin dashboard for efficient management."
               url="https://github.com/miketorreno/donation-platform"
               techStack={["Django", "Python", "MySQL", "JavaScript"]}
-              imgs={["public/donation-platform.png"]}
+              imgs={["donation-platform.png"]}
             />
           </li>
         </ol>
