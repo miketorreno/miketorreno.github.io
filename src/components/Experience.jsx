@@ -16,26 +16,25 @@ const Experience = () => {
         <ol className="group/list">
           <li className="mb-12">
             <ExperienceCard
-              role="DevOps and Backend Developer"
+              role="Backend Developer and DevOps"
               company="Today Technologies, Addis Ababa"
               startDate="Dec 2024"
               endDate="Present"
-              description="At Today Technologies, I bridge the gap between development and operations by architecting a modular AWS ecosystem using Terraform and ECS, reducing environment spin-up times from hours to under 30 minutes. I specialize in high-efficiency CI/CD and observability, having slashed build times up to 70% via Docker layer caching and reduced mean diagnostic time from an hour to 15 minutes through a comprehensive LGTM and OpenTelemetry stack. Combining a strong backend foundation in NestJS and PostgreSQL with a DevOps mindset, I build scalable, production-ready systems from AI-powered bot ecosystems to offline-first healthcare platforms with a focus on stability and developer velocity."
+              description="At Today Technologies, I work across backend development and DevOps, owning application delivery from development to deployment and monitoring. Built and optimized GitHub Actions CI/CD pipelines using Docker and container-layer caching, reducing build times by approximately 70% (34 to 10 minutes). Led the end-to-end development and deployment of an Electronic Health Record (EHR) platform, implementing containerized deployments and near-zero downtime release workflows. Established observability using Prometheus, Grafana, Loki, Tempo, and OpenTelemetry, with RED/USE dashboards for application and infrastructure monitoring. Also automated infrastructure provisioning and server configuration using Terraform and Ansible, while developing and deploying an AI-powered Telegram job board with database architecture, caching, and production monitoring."
               techStack={[
+                "Docker",
+                "GitHub Actions",
+                "Nginx",
                 "AWS",
                 "Terraform",
-                "Docker",
-                "Nginx",
-                "GitHub Actions",
                 "Ansible",
-                "Turborepo",
+                "Python",
                 "TypeScript",
-                "React",
+                "Node.js",
+                "Turborepo",
+                "Next.js",
                 "Shadcn/ui",
-                "NestJS",
                 "PostgreSQL",
-                "Vitest",
-                "Jest",
               ]}
             />
           </li>
@@ -43,20 +42,24 @@ const Experience = () => {
           <li className="mb-12">
             <ExperienceCard
               role="Senior Full-Stack Developer"
-              company="KanaBet, Addis Ababa"
+              company="KanaBet Casino, Addis Ababa"
               startDate="Sep 2023"
               endDate="Dec 2024"
-              description="Streamlined the software delivery lifecycle by implementing CI/CD pipelines using GitHub Actions and Docker based containerization for consistent deployments. Expert at reducing operational toil, evidenced by developing a Telegram bot that significantly decreased support ticket resolution times. Committed to high-availability and performance, having optimized data processing latency by 35% for a 2,000+ DAU environment and rigorous testing raised system coverage from 47% to 83%."
+              description="Developed and deployed full-stack applications, focusing on application functionality, automated testing, and reliable software delivery. Built a Telegram support and ticketing platform using TypeScript, Node.js, and SQLite, automating support workflows and reducing manual handling of issue reports. Established GitHub Actions CI/CD pipelines and Docker based deployment workflows, while developing comprehensive test suites with Vitest and Playwright that increased test coverage from 47% to 83%."
               techStack={[
-                "Docker",
-                "GitHub Actions",
-                "Nginx",
                 "TypeScript",
                 "React",
                 "Next.js",
                 "Node.js",
+                "Express",
                 "PostgreSQL",
+                "SQLite",
+                "Vitest",
+                "Playwright",
                 "grammY",
+                "Docker",
+                "GitHub Actions",
+                "Nginx",
                 "Batch",
               ]}
             />
@@ -68,7 +71,7 @@ const Experience = () => {
               company="iCog-ACC, Addis Ababa"
               startDate="Jun 2024"
               endDate="Aug 2024"
-              description="As an instructor I was responsible for educating large cohorts of over 100 students in a range of modern technology concepts, including programming with Python and Scratch, web development, and AI/ML. To ensure learning moved beyond theory, I designed and led a curriculum of hands-on mini-projects—such as building games, developing simple blogs, and creating image classifiers with machine learning—which allowed students to reinforce their knowledge through direct, practical application."
+              description="Taught cohorts of over 100 students in a range of modern technology concepts, including programming with Python and Scratch, web development, and AI/ML. To ensure learning moved beyond theory, I designed and led a curriculum of hands-on mini projects such as building games, developing simple blogs, and creating image classifiers with machine learning which allowed students to reinforce their knowledge through direct, practical application."
               techStack={[
                 "AI",
                 "Machine Learning",
@@ -84,15 +87,17 @@ const Experience = () => {
           <li className="mb-12">
             <ExperienceCard
               role="Manager, Lead Engineer"
-              company="BetMe, Addis Ababa"
+              company="BetMe Virtual Betting, Addis Ababa"
               startDate="Aug 2022"
               endDate="Sep 2023"
-              description="In this leadership role, I led cross-functional teams that included developers, accountants, digital marketers, and customer support agents, ensuring cohesive strategy and execution across the company. A key achievement was the development of internal tools and customer self-service solutions using TypeScript, React, Node.js, and batch scripts. These initiatives directly empowered our support teams, leading to a significant reduction in system issue reports and faster ticket resolution times. Complementing these internal improvements, I also managed digital advertising campaigns on Google Ads and Facebook, successfully increasing user acquisition and enhancing our overall brand visibility."
+              description="Led cross-functional teams across software development, finance, marketing, field operations, and customer support, coordinating product development and operational initiatives. Alongside team leadership, developed internal support and customer self-service tools using TypeScript, React, and Node.js, incorporating automation workflows that enabled users to resolve common system issues independently."
               techStack={[
                 "Docker",
                 "TypeScript",
                 "React",
+                "Tailwind CSS",
                 "Node.js",
+                "Express",
                 "PostgreSQL",
                 "grammY",
                 "Batch",
@@ -106,8 +111,15 @@ const Experience = () => {
               company="Metropolitan Tabernacle, Bishoftu"
               startDate="Feb 2022"
               endDate="Aug 2022"
-              description="As a full-stack developer I was responsible with transforming the organization's digital fundraising capabilities and online presence. I developed of an online donation system from the ground up using Django and MySQL. By implementing a key feature that allowed global donors to browse and select beneficiaries, we created a more personal and engaging user experience, which directly resulted in a 200% increase in quarterly donations. In addition to this core project, I also designed and developed the organization's official website, establishing a professional online presence."
-              techStack={["Python", "Django", "MySQL", "JavaScript"]}
+              description="Developed and maintained an online donation platform using Django and MySQL, implementing application functionality to support donor and beneficiary workflows. Also designed and developed the organization's official website, strengthening its digital presence and online engagement."
+              techStack={[
+                "Python",
+                "Django",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS",
+              ]}
             />
           </li>
 
@@ -117,7 +129,7 @@ const Experience = () => {
               company=""
               startDate="Sept 2021"
               endDate="Mar 2023"
-              description="My freelance work focuses on providing end-to-end development services for web, mobile, and chat platforms. I have successfully delivered full-stack applications through direct consultation with clients, built user-friendly cross-platform mobile apps with Flutter, and deployed custom Telegram bots and mini-apps to meet unique business requirements."
+              description="Delivered software solutions across backend development, full-stack applications, database optimization, and deployment. Migrated legacy PHP applications to Docker based infrastructure to improve deployment consistency and maintainability. Optimized SQL queries and database indexing, improving query performance by up to 40%. Developed an e-learning platform using React, Node.js, Express, and MongoDB to support course delivery and student progress tracking, and built a RESTful API using Laravel and MySQL for searching and ranking local handyman service providers."
               techStack={[
                 "React",
                 "Node.js",
@@ -126,7 +138,6 @@ const Experience = () => {
                 "Laravel",
                 "MySQL",
                 "PostgreSQL",
-                "Firebase",
                 "Docker",
                 "Redis",
                 "python-telegram-bot",

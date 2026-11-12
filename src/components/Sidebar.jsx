@@ -11,7 +11,8 @@ const Sidebar = () => {
           DevOps Engineer
         </h2>
         <p className="mt-4 max-w-xs leading-normal">
-          I turn software into reliable, automate, production-ready systems.
+          {/* I turn software into reliable, automated, production-ready system. */}
+          I make software delivery fast and reliable through automation.
         </p>
 
         <nav className="nav hidden lg:block">

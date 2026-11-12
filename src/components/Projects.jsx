@@ -17,22 +17,17 @@ const Projects = () => {
           <li className="mb-12">
             <ProjectCard
               title="DevOps & Cloud Templates"
-              description="Production-ready DevOps and Cloud project templates designed to bootstrap real-world projects with best practices."
+              description="Reusable collection of infrastructure and deployment blueprints for provisioning, configuring, securing, and monitoring production environments across cloud and containerized workloads, standardizing the software delivery lifecycle through automation and infrastructure as code."
               url="https://github.com/miketorreno/devops-cloud-templates"
               techStack={[
-                "Nginx",
-                "Docker",
-                "Kubernetes",
-                "Helm",
-                "GitHub Actions",
                 "AWS",
                 "Terraform",
                 "Ansible",
-                "Prometheus",
-                "Grafana",
-                "Loki",
-                "Tempo",
-                "OpenTelemetry",
+                "Nginx",
+                "GitHub Actions",
+                "Docker",
+                "Kubernetes",
+                "Helm",
               ]}
               imgs={["devops-cloud-templates.png"]}
             />
@@ -40,31 +35,8 @@ const Projects = () => {
 
           <li className="mb-12">
             <ProjectCard
-              title="Cloud Platform"
-              description="Reusable cloud platform demonstrating modern platform engineering practices."
-              url="https://github.com/miketorreno/cloud-platform"
-              techStack={[
-                "AWS infrastructure",
-                "IaC with Terraform",
-                "Docker containerization",
-                "Kubernetes platform",
-                "Helm deployments",
-                "CI/CD with GitHub Actions",
-                "Prometheus & Grafana monitoring",
-                "Loki centralized logging",
-                "OpenTelemetry instrumentation",
-                "Security best practices",
-                "Operational documentation",
-                "Production runbooks",
-              ]}
-              imgs={["cloud-platform.png"]}
-            />
-          </li>
-
-          <li className="mb-12">
-            <ProjectCard
-              title="Electronic Health Record (EHR) System"
-              description="Small scale electronic health record system, secure patient management and appointment scheduling. Features an optimized PostgreSQL database, docker and a full CI/CD pipeline with GitHub Actions for automated, zero-downtime releases."
+              title="Electronic Health Record (EHR)"
+              description="Healthcare management system for maintaining patient records and coordinating appointments, with a relational data architecture, optimized database queries, and automated deployment pipelines designed for reliable, near-zero downtime releases."
               url="https://github.com/miketorreno/sshp"
               techStack={[
                 "Next.js",
@@ -84,12 +56,11 @@ const Projects = () => {
           <li className="mb-12">
             <ProjectCard
               title="AI-Powered Telegram Job Bot"
-              description="An intelligent bot that connects employers and job seekers on Telegram. Integrates AI to automate key tasks like generating tailored cover letters, building professional resumes, and refining job descriptions."
+              description="Telegram based recruitment platform for connecting employers with job seekers, leveraging AI to streamline recruitment workflows through intelligent job description generation, resume creation, and personalized cover letter writing."
               url="https://github.com/miketorreno/talent-hive"
               techStack={[
                 "Python",
                 "python-telegram-bot",
-                "Hugging Face",
                 "PostgreSQL",
                 "Redis",
                 "Pytest",
@@ -101,7 +72,7 @@ const Projects = () => {
           <li className="mb-12">
             <ProjectCard
               title="Handyman Services API"
-              description="Robust and reliable API built with Laravel and MySQL to search and rank local handymen. Engineered for performance with optimized search queries to ensure fast results at peak load, and backed by feature tests ensuring 100% critical path coverage."
+              description="An API powering a local handyman services marketplace, enabling users to discover and rank handymen through efficient search and filtering, backed by optimized database queries and comprehensive automated testing."
               url="https://github.com/miketorreno/handyman-api"
               techStack={["Laravel", "PHP", "MySQL", "PHPUnit"]}
               imgs={["handyman-api.png"]}
@@ -111,7 +82,7 @@ const Projects = () => {
           <li className="mb-12">
             <ProjectCard
               title="Habit Tracker"
-              description="Productivity app that combines habit tracking, task timing, and progress visualization. It supports multiple calendars and habits, allowing you to customize your approach to personal growth. Featuring an activity grid similar to GitHub's contribution tracker, it offers a clear view of your achievements over time."
+              description="Personal productivity app that combines habit tracking, task management, and time tracking with customizable calendars and visual activity analytics to help users monitor consistency, measure progress, and build lasting habits. Featuring an activity grid similar to GitHub's contribution tracker, it offers a clear view of your achievements over time."
               url="https://github.com/miketorreno/streaks"
               techStack={[
                 "Next.js",
@@ -122,16 +93,6 @@ const Projects = () => {
                 "Tailwind CSS",
               ]}
               imgs={["streaks.png"]}
-            />
-          </li>
-
-          <li className="mb-12">
-            <ProjectCard
-              title="Donation Platform"
-              description="Donation platform designed to empower nonprofits, independent creators, and community projects to raise funds seamlessly. It features a user-friendly interface, secure payment processing, and a robust admin dashboard for efficient management."
-              url="https://github.com/miketorreno/donation-platform"
-              techStack={["Django", "Python", "MySQL", "JavaScript"]}
-              imgs={["donation-platform.png"]}
             />
           </li>
         </ol>
